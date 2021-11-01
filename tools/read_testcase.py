@@ -2,6 +2,8 @@
 # @Time : 2021/11/1 15:48
 # @Author : zhangyan
 # @File : read_testcase.py  工具类：读取测试用例
+from tools.excelOperation import ExcelOperation
+
 
 class ReadTestCase(object):
     # 初始化方法
@@ -22,3 +24,6 @@ class ReadTestCase(object):
             "result": 12,
             "desc": 13
         }
+
+    # 读取Excel测试用例
+    ExcelOperation().read_excel()
