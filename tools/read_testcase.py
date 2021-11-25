@@ -4,6 +4,7 @@
 # @File : read_testcase.py  工具类：读取测试用例
 import json
 import os
+
 import openpyxl
 
 
@@ -84,7 +85,7 @@ class ReadTestCase(object):
                 except Exception as e:
                     self.write_excel([i, self.cell_config.get("desc")], e)
         # 将列表数据写入json
-        self.write_json("5GCenter_testCase.json",caseList)
+        self.write_json("5GCenter_testCase.json", caseList)
 
     # 写入excel，依赖写入的行、列和数值
     def write_excel(self, x_y, content):
@@ -111,6 +112,4 @@ class ReadTestCase(object):
 
 if __name__ == '__main__':
     # ReadTestCase("testcase.xlsx").write_excel([2, 13], "写入成功~")
-    case_list = ReadTestCase("5GCenter_testcase.xlsx").read_excel()
-    # print(testcaseData)
-    ReadTestCase("5GCenter_testcase.json").write_json()
+    ReadTestCase("5GClient_testcase.xlsx").read_excel()
