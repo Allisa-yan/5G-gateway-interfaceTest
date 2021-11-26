@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/5G-gateway-interfaceTest.iml" filepath="$PROJECT_DIR$/.idea/5G-gateway-interfaceTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/sa_autotest_platform.iml" filepath="$PROJECT_DIR$/.idea/sa_autotest_platform.iml" />
     </modules>
   </component>
 </project>

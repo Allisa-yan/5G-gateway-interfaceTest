@@ -29,4 +29,4 @@ if __name__ == '__main__':
     password = 'root123'
     database = '5g_gateway_client'
     sql='select * from testcases'
-    OperateDB().operate_db(host, user, password, database,sql)
+    DBOperation().operate_db(host, user, password, database,sql)
