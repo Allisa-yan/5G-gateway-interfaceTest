@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/11/25 15:47
 # @Author : zhangyan
-# @File : ExcelOperation.py  excel表相关操作
+# @File : excel_operation.py  excel表相关操作
 import os
 
 import openpyxl

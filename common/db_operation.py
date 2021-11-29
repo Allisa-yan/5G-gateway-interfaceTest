@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2021/11/25 13:35
 # @Author : zhangyan
-# @File : DBOperation.py  数据库相关操作
+# @File : db_operation.py  数据库相关操作
 import pymysql
 
 
