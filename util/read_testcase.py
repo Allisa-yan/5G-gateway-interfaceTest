@@ -111,5 +111,5 @@ class ReadTestCase(object):
 
 
 if __name__ == '__main__':
-    # ReadTestCase("testcase.xlsx").write_excel([2, 13], "写入成功~")
+    # ReadTestCase("case.xlsx").write_excel([2, 13], "写入成功~")
     ReadTestCase("5GClient_testcase.xlsx").read_excel()
